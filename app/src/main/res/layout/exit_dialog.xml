@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical"
+                android:background="@drawable/back_dialog">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.sensoftindia.allinonestatus.widget.MyTextviewBold
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Thank you"
+                                android:gravity="center"
+                                android:textColor="@color/back_colorr"
+                                android:textAllCaps="true"
+                                android:textSize="18sp"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingTop="5dp">
+
+                            <com.sensoftindia.allinonestatus.widget.MyTextviewLight
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Are you sure you want to close?"
+                                android:gravity="center"
+                                android:textColor="@color/back_colorr"
+                                android:textAllCaps="false"
+                                android:textSize="15sp"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal">
+
+                    <!-- <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="2"
+                         android:gravity="center">
+
+                         <LinearLayout
+                             android:layout_width="35dp"
+                             android:layout_height="35dp"
+                             android:gravity="center"
+                             android:elevation="10dp"
+                             android:background="@drawable/notification_indicator_drawable">
+
+                             <com.mxi.mandalexpress.widget.MyTextviewSemibold
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:text="&#x2718;"
+                                 android:gravity="center"
+                                 android:textColor="@color/back_second"
+                                 android:textAllCaps="false"
+                                 android:textSize="15dp"/>
+
+                         </LinearLayout>
+
+                     </LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:id="@+id/ln_submit"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:elevation="10dp"
+                            android:background="@drawable/green_circle">
+
+                            <com.sensoftindia.allinonestatus.widget.MyTextviewSemibold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="✓"
+                                android:gravity="center"
+                                android:textColor="@color/back_second"
+                                android:textAllCaps="false"
+                                android:textSize="15dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center|right|top"
+                android:paddingRight="30dp">
+
+                <LinearLayout
+                    android:id="@+id/ln_close"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:elevation="10dp"
+                    android:background="@drawable/red_circle">
+
+                    <com.sensoftindia.allinonestatus.widget.MyTextviewSemibold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="&#x2718;"
+                        android:gravity="center"
+                        android:textColor="@color/back_second"
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"></LinearLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

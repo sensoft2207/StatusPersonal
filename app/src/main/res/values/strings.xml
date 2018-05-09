@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Status Hunt</string>
+
+
+
+    <!--Login-->
+    <string name="sign_in">Sign In</string>
+    <string name="not_register">Dont have an account?</string>
+    <string name="sign_up">Dont have an account?</string>
+    <string name="sign_up_here"><u>Signup</u></string>
+
+    <!--<string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_id">ca-app-pub-7186285195463888/2970749361</string>
+    <!--<string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+</resources>
